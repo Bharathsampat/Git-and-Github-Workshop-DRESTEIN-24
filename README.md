@@ -9,10 +9,14 @@ DEPARTMENT :  ECE
 YEAR :  3rd
 
 Git and GitHub Workshop Assignment 
+
 Complete the following tasks to practice core Git commands. Answer each question and perform the associated Git operations. 
+
 1. Setup and Initialize: 
 -	What command do you use to create a new directory named `git-workshop` and navigate into it? 
+
 Answer:
+
 To create a new directory named git-workshop and navigate into it, you can use the following commands in a terminal:
 
 bash
@@ -20,8 +24,10 @@ mkdir git-workshop
 cd git-workshop
  -mkdir git-workshop creates the new directory.
         - cd git-workshop changes the current directory to git-workshop.
+
 2. Initialize a Git Repository: 
 -	What command initializes a Git repository in your directory? 
+
 Answer:
 To initialize a Git repository in your directory, use the following command:
 
@@ -29,22 +35,27 @@ bash
 git init
 
 This command sets up a new Git repository in the current directory, creating a .git subdirectory that contains all the necessary files for version control.
+
 3. Create and Modify Files: 
 -	How do you create a new file named `hello.txt` and add the content 'Hello, Git Workshop!' to it using a single command? 
+
 Answer:
 You can create a new file named hello.txt and add the content "Hello, Git Workshop!" to it using the following command:
        Bash
 echo "Hello, Git Workshop!" > hello.txt
 This command uses echo to output the text and redirects (>) it into a new file called hello.txt. If hello.txt already exists, this command will overwrite its content.
+
 4. Check the Status of Your Repository: 
 -	What command displays the status of your repository? 
+
 Answer:
 To display the status of your Git repository, use the following command:
 
 bash
 git status
 
-        This command shows the current state of the repository, including any changes that have been staged, changes that are not staged, and any untracked files.
+This command shows the current state of the repository, including any changes that have been staged, changes that are not staged, and any untracked files.
+
 5. Stage and Commit Changes: 
 -	What command stages the file `hello.txt`?  
 -	What command commits the staged file with the message 'Add hello.txt with welcome message'? 
